@@ -1,3 +1,11 @@
+:root {
+  --white-clr: hsl(0, 0%, 100%);
+  --black-clr: hsl(0, 0%, 0%);
+  --light-neutral-clr: hsl(0, 0%, 55%);
+  --dark-neutral-clr:  hsl(0, 0%, 41%);
+}
+
 body {
   background-color: purple;
+  font-family: "Alata", sans-serif;
 }
