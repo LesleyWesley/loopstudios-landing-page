@@ -5,7 +5,55 @@
   --dark-neutral-clr:  hsl(0, 0%, 41%);
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 85%;
+}
+
 body {
   background-color: purple;
-  font-family: "Alata", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Header + Hero Section Styling - Mobile*/
+
+.header-hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("../images/mobile/image-hero.jpg") no-repeat center top;
+}
+
+header {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
 }
