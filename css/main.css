@@ -4,3 +4,7 @@
   --light-neutral-clr: hsl(0, 0%, 55%);
   --dark-neutral-clr:  hsl(0, 0%, 41%);
 }
+
+body {
+  background-color: pink;
+}
